@@ -6,6 +6,7 @@ class Dldr < Formula
   sha256 "8189afca3f1ba83178ae2afe50dc02286dbe43328836f639c30ceb9174f17896"
 
   depends_on :python3
+  depends_on "ffmpeg"
 
   resource "docopt" do
     url "https://pypi.python.org/packages/source/d/docopt/docopt-0.6.2.tar.gz"
