@@ -5,7 +5,7 @@ class Dldr < Formula
   version "1.0.1"
   sha256 "8189afca3f1ba83178ae2afe50dc02286dbe43328836f639c30ceb9174f17896"
 
-  depends_on :python
+  depends_on "python"
   depends_on "ffmpeg"
 
   resource "docopt" do
